@@ -48,3 +48,70 @@ Please follow the steps below to get the project set up:
 2. Install the specified **Node.js** version using nvm by running: `nvm install <VERSION>`, where `<VERSION>` corresponds to the version specified in the `.nvmrc` file.
 
 With these instructions, you should have everything ready to run the application and explore its functionality.
+
+## Search Queries
+
+### Search Queries for Repositories:
+
+1. Search repositories by keyword:
+   `react`
+
+2. Search repositories by keyword within a specific language:
+   `react language:javascript`
+
+3. Search repositories by keyword with the specified topic:
+   `react topic:ui-components`
+
+4. Search repositories with a specific license:
+   `react license:mit`
+
+5. Search repositories created by a specific user:
+   `user:octocat`
+
+6. Search repositories with a specific number of stars:
+   `react stars:>=1000`
+
+7. Search repositories that were recently updated:
+   `react pushed:>2023-01-01`
+
+8. Search repositories with a specific number of forks:
+   `react forks:>=500`
+
+9. Search repositories that are not forks:
+   `react fork:false`
+
+10. Search repositories with a specific size:
+    `react size:>=10000`
+
+### Search Queries for Users:
+
+1. Search users by username:
+
+   `user:octocat`
+
+2. Search users by location:
+   `location:San Francisco`
+
+3. Search users by the number of followers:
+   `followers:>=1000`
+
+4. Search users by the number of repositories they own:
+   `repos:>=50`
+
+5. Search users who have contributed to a specific repository:
+   `repo:facebook/react`
+
+6. Search users who are members of a specific organization:
+   `org:google`
+
+7. Search users who have created repositories with a specific license:
+   `license:apache-2.0`
+
+8. Search users who are popular within a specific programming language:
+   `language:python`
+
+9. Search users who have recently joined GitHub:
+   `joined:>2023-01-01`
+
+10. Search users who have a specific email associated with their account:
+    `email:user@example.com`
