@@ -1,5 +1,5 @@
-import { Case, Default, Switch } from "react-if";
-import { FC, useState } from "react";
+import { Case, Switch } from "react-if";
+import { FC, useState, memo } from "react";
 import useSWR from "swr";
 
 import Chip from "@mui/material/Chip";
@@ -100,4 +100,4 @@ const RepoItem: FC<Props> = ({ repo }) => {
 	);
 };
 
-export default RepoItem;
+export default memo(RepoItem);

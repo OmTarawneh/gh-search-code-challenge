@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, memo } from "react";
 
 import Avatar from "@mui/material/Avatar";
 import Divider from "@mui/material/Divider";
@@ -38,4 +38,4 @@ const UserItem: FC<Props> = ({ user }) => {
 	);
 };
 
-export default UserItem;
+export default memo(UserItem);
