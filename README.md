@@ -47,4 +47,4 @@ Please follow the steps below to get the project set up:
 1. Install **nvm** by following the instructions provided [here](https://github.com/nvm-sh/nvm#installation-and-update).
 2. Install the specified **Node.js** version using nvm by running: `nvm install <VERSION>`, where `<VERSION>` corresponds to the version specified in the `.nvmrc` file.
 
-With these instructions, you should have everything ready to run the application and explore its functionality. Happy coding!
+With these instructions, you should have everything ready to run the application and explore its functionality.
