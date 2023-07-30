@@ -1,4 +1,4 @@
-# GitHub Code Search Challenge
+# GitHub Search Challenge
 
 ## Overview
 
