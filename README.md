@@ -86,7 +86,6 @@ With these instructions, you should have everything ready to run the application
 ### Search Queries for Users:
 
 1. Search users by username:
-
    `user:octocat`
 
 2. Search users by location:
