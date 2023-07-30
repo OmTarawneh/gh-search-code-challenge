@@ -1,24 +1,39 @@
-# gh-search-code-challenge:
+# GitHub Code Search Challenge
 
-**_Notes:_**
+## Overview
 
-- There is an api [rate limit](https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#exceeding-the-rate-limit) for public usage of GitHub API, so its highly recommended to add your [GitHub Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
-- The app is accompanied with unit test but not for all component - for timing measure - but only for some major ones.
+This repository contains a solution for the GitHub Code Search Challenge. The challenge involves creating an application that allows users to search for code on GitHub using the GitHub API. Before you proceed, please take note of the following important information:
+
+## Important Notes
+
+- There is an API rate limit for public usage of the GitHub API. To avoid any issues, it is highly recommended to add your GitHub Token when using the application. For more information on GitHub API rate limits, refer to the [official documentation](https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#exceeding-the-rate-limit).
+
+- The application comes with unit tests, though not for all components, as some are excluded for timing measurement purposes. However, significant components have test coverage.
 
 ## Getting Started
 
-Before running the app, make sure you have the following installed:
+Before running the application, please ensure that you have the following prerequisites installed:
 
-- **Node.js** (version specified in the `.nvmrc` file).
-- (optional) Create `.env.local` and your GH token to it, see `.env.example`.
+- **Node.js** (The required version is specified in the `.nvmrc` file).
 
-**_Useful Commands_**
+Optionally, if you wish to use your GitHub Token, follow the steps below:
 
-- Run in Local env: `npm run dev`
-- Test the : `npm run test`
-- Test & watch: `npm run test:watch`
+1. Create a `.env.local` file in the project root directory.
+2. Add your GitHub Token to the `.env.local` file. Refer to the `.env.example` file for the format.
 
-### Installation
+## Useful Commands
 
-1. Install **nvm** by following the instructions [here](https://github.com/nvm-sh/nvm#installation-and-update).
-2. Install **node** with `nvm install <VERSION>` where \<VERSION\> is specified in this repository's .nvmrc file.
+To work with the application, use the following commands:
+
+- Run the application in the local environment: `npm run dev`
+- Run unit tests: `npm run test`
+- Run unit tests in watch mode: `npm run test:watch`
+
+## Installation
+
+Please follow the steps below to get the project set up:
+
+1. Install **nvm** by following the instructions provided [here](https://github.com/nvm-sh/nvm#installation-and-update).
+2. Install the specified **Node.js** version using nvm by running: `nvm install <VERSION>`, where `<VERSION>` corresponds to the version specified in the `.nvmrc` file.
+
+With these instructions, you should have everything ready to run the application and explore its functionality. Happy coding!
