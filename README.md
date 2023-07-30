@@ -22,6 +22,3 @@ Before running the app, make sure you have the following installed:
 
 1. Install **nvm** by following the instructions [here](https://github.com/nvm-sh/nvm#installation-and-update).
 2. Install **node** with `nvm install <VERSION>` where \<VERSION\> is specified in this repository's .nvmrc file.
-
-
-***Test:**
