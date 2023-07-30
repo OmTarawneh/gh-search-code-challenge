@@ -10,6 +10,8 @@ This repository contains a solution for the GitHub Code Search Challenge. The ch
 
 - The application comes with unit tests, though not for all components, as some are excluded for timing measurement purposes. However, significant components have test coverage.
 
+- Not all component can be tested because there are some known issues with Next 13 for RCS. [issue](https://github.com/vercel/next.js/issues/47299)
+
 ## Getting Started
 
 Before running the application, please ensure that you have the following prerequisites installed:
