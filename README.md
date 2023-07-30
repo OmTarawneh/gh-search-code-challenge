@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a solution for the GitHub Code Search Challenge. The challenge involves creating an application that allows users to search for code on GitHub using the GitHub API. Before you proceed, please take note of the following important information:
+This repository contains a solution for the GitHub Code Search Challenge. The challenge involves creating an application that allows users to search for repos/users on GitHub using the GitHub API. Before you proceed, please take note of the following important information:
 
 ## Important Notes
 
