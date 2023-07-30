@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches the snapshot 1`] = `
+<div>
+  <div
+    class="MuiStack-root css-1reytsa-MuiStack-root"
+  >
+    <div>
+      Banner Component
+    </div>
+    <div>
+      SearchSection Component
+    </div>
+    <div>
+      SearchResult Component
+    </div>
+  </div>
+</div>
+`;

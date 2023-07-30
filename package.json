@@ -1,0 +1,51 @@
+{
+	"name": "gh-search-code-challenge",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build": "next build",
+		"dev": "next dev",
+		"lint": "next lint",
+		"start": "next start",
+		"test:watch": "jest --watch",
+		"test": "jest"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.11.1",
+		"@emotion/styled": "^11.11.0",
+		"@mui/icons-material": "^5.14.1",
+		"@mui/material": "^5.14.2",
+		"@octokit/types": "^11.1.0",
+		"@types/node": "20.4.5",
+		"eslint": "8.45.0",
+		"eslint-config-next": "13.4.12",
+		"lodash": "^4.17.21",
+		"mobx": "^6.10.0",
+		"mobx-react-lite": "^4.0.3",
+		"nanoid": "^4.0.2",
+		"next": "13.4.12",
+		"octokit": "^3.1.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-error-boundary": "^4.0.10",
+		"react-if": "^4.1.5",
+		"react-infinite-scroll-component": "^6.1.0",
+		"swr": "^2.2.0"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/react": "^14.0.0",
+		"@testing-library/user-event": "^14.4.3",
+		"@types/jest": "^29.5.3",
+		"@types/lodash": "^4.14.196",
+		"@types/react": "^18.2.17",
+		"@types/react-dom": "^18.2.7",
+		"@types/react-test-renderer": "^18.0.0",
+		"@types/react-window": "^1.8.5",
+		"jest": "^29.6.2",
+		"jest-environment-jsdom": "^29.6.2",
+		"mobx-react": "^9.0.0",
+		"ts-jest": "^29.1.1",
+		"typescript": "5.1.6"
+	}
+}
