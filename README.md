@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a solution for the GitHub Code Search Challenge. The challenge involves creating an application that allows users to search for repos/users on GitHub using the GitHub API. Before you proceed, please take note of the following important information:
+This repository contains a solution for the GitHub Code Search Challenge. The challenge involves creating an application that allows users to search for repositories and users on GitHub using the GitHub API. Before you proceed, please take note of the following important information:
 
 ## Important Notes
 
@@ -10,7 +10,16 @@ This repository contains a solution for the GitHub Code Search Challenge. The ch
 
 - The application comes with unit tests, though not for all components, as some are excluded for timing measurement purposes. However, significant components have test coverage.
 
-- Not all component can be tested because there are some known issues with Next 13 for RCS. [issue](https://github.com/vercel/next.js/issues/47299)
+- Not all components can be tested due to known issues with Next.js 13 for RCS. For more details, see the [issue](https://github.com/vercel/next.js/issues/47299).
+
+## Technology Stack
+
+The application was developed using the following technologies:
+
+- TypeScript
+- Next.js 13
+- Mobx
+- Material UI
 
 ## Getting Started
 
